@@ -1,0 +1,11 @@
+Metrics/BlockLength:
+  Exclude:
+    - '**/*_spec.rb'
+    - '**/spec/**/*.rb'
+    - '**/db/**/*.rb'
+    - '**/config/**/*.rb'
+Style/Documentation:
+  Enabled: false
+AllCops:
+  Exclude:
+    - 'bin/**/*'
